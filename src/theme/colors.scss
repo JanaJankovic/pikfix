@@ -1,0 +1,19 @@
+:root {
+  --pikfix-white: #f3f3f3;
+  --pikfix-white-shade1: #d5d5d5;
+  --pikfix-white-shade2: #eaeaea;
+  --pikfix-black: #202020;
+  --pikfix-violet: #541e80;
+  --pikfix-blue: #261e80;
+  --pikfix-green: #1e8062;
+  --pikfix-gradient-transparent: linear-gradient(
+    180deg,
+    rgba(84, 30, 128, 0.9) 0%,
+    rgba(38, 30, 128, 0.9) 100%
+  );
+  --pikfix-gradient: linear-gradient(
+    180deg,
+    rgba(84, 30, 128, 1) 0%,
+    rgba(38, 30, 128, 1) 100%
+  );
+}

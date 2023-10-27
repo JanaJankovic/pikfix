@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("./theme/colors.scss");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pfx-bttn-white {
+  background-color: var(--pikfix-white);
+  border: none;
+  border-radius: 10px;
+  min-height: 65px;
+  max-width: 315px;
+  font-weight: bold;
+  cursor: pointer;
+}
