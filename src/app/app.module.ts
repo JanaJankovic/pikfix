@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MapComponent } from './components/map/map.component';
 import { TestComponent } from './pages/test/test.component';
 import { InputComponent } from './components/input/input.component';
+import { ItemComponent } from './components/item/item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { InputComponent } from './components/input/input.component';
     HomeComponent,
     MapComponent,
     TestComponent,
-    InputComponent
+    InputComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,

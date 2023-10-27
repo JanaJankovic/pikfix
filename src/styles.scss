@@ -52,3 +52,23 @@ body {
     margin-bottom: 10px;
   }
 }
+
+.gradient-text {
+  background-image: var(--pikfix-gradient);
+  background-clip: text;
+  color: transparent;
+}
+
+.chat-title {
+  width: 150px;
+  font-weight: 700;
+}
+
+.my-chats-title {
+  width: 150px;
+  font-weight: 700;
+
+  .end-icon {
+    cursor: pointer;
+  }
+}
