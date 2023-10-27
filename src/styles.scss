@@ -5,6 +5,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", sans-serif;
+  background-color: var(--pikfix-white);
 }
 
 .pfx-bttn-white {
@@ -15,4 +16,39 @@ body {
   max-width: 315px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.inner-input,
+.message-input {
+  background-color: var(--pikfix-white-shade1);
+  border-radius: 10px;
+  padding: 10px;
+
+  & > input::placeholder {
+    color: var(--pikfix-black);
+  }
+}
+
+.inner-input {
+  width: 250px;
+}
+
+.outer-input {
+  background-color: var(--pikfix-white);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid var(--pikfix-white-shade1);
+
+  & > div > input {
+    font-size: 13px;
+  }
+}
+
+.outer-wrapper {
+  color: var(--pikfix-black);
+  & > .input-label {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
 }

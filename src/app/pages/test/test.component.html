@@ -1,1 +1,38 @@
-<p>test works!</p>
+<div style="margin: 30px 50px">
+  <app-input
+    placeholder="Uporanisko ime"
+    [startIcons]="['assets/icons/util/user.svg']"
+    inputClass="inner-input"
+  ></app-input>
+  <br />
+
+  <app-input
+    placeholder="Geslo"
+    [startIcons]="['assets/icons/util/lock.svg']"
+    inputClass="inner-input"
+  ></app-input>
+  <br />
+
+  <app-input
+    placeholder="Vase sporocilo"
+    [startIcons]="['assets/icons/util/image.svg']"
+    [endIcons]="['assets/icons/util/send.svg']"
+    inputClass="message-input"
+  ></app-input>
+  <br />
+
+  <app-input
+    label="Ime in priimek"
+    inputClass="outer-input"
+    wrapperClass="outer-wrapper"
+  ></app-input>
+  <br />
+
+  <app-input
+    label="Geslo"
+    inputType="password"
+    inputClass="outer-input"
+    wrapperClass="outer-wrapper"
+  ></app-input>
+  <br />
+</div>

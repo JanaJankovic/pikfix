@@ -16,4 +16,6 @@
     rgba(84, 30, 128, 1) 0%,
     rgba(38, 30, 128, 1) 100%
   );
+  --pikfix-filter-black: invert(5%) sepia(8%) saturate(75%) hue-rotate(314deg)
+    brightness(93%) contrast(83%);
 }

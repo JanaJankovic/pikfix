@@ -1,1 +1,16 @@
-<p>input works!</p>
+<div [ngClass]="['input-wrapper', wrapperClass]">
+  <div *ngIf="label != ''" class="input-label">
+    <span>{{ label }}</span>
+  </div>
+  <div [ngClass]="['input-content', inputClass]">
+    <div style="display: flex; align-items: center; width: 100%">
+      <div *ngIf="startIcons.length > 0" class="start-icons">
+        <img *ngFor="let icon of startIcons" [src]="icon" alt="icon" />
+      </div>
+      <input [type]="inputType" [placeholder]="placeholder" />
+    </div>
+    <div *ngIf="endIcons.length > 0" class="end-icons">
+      <img *ngFor="let icon of endIcons" [src]="icon" alt="icon" />
+    </div>
+  </div>
+</div>
